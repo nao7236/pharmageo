@@ -1,0 +1,1 @@
+- [Project Plan](memory/project.md) — Initialized project tracking.

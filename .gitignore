@@ -1,0 +1,9 @@
+.tools/
+.env
+backend/.env
+frontend/.env
+
+.env
+backend/.env
+frontend/.env
+**/node_modules/
