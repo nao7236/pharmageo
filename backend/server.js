@@ -6,6 +6,7 @@ const cors = require('cors');
 const app = express();
 
 const allowedOrigins = [
+  'https://pharmageo.netlify.app',
   'https://pharmaciegeo.netlify.app',
   'http://localhost:5173',
   'http://localhost:3000',
@@ -25,7 +26,6 @@ app.use(
     allowedHeaders: ['Content-Type', 'Authorization'],
   })
 );
-app.options('*', cors());
 app.use(express.json());
 
 // Route de test / santé de l'API
